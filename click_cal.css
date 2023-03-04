@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img{
+    height: 30;}
+
+
+#title, #navbar{
+    display: inline-block;
+}
+
+#title{
+    margin-right: 25%;
+}
+
+
+.heading{
+    font-weight: bold;
+    font-size: xx-large;
+    color: aliceblue;
+    margin: auto;
+}
+
+
+/* defining the hover properties */
+
+.home:hover{
+    border-radius: 50px;
+    background-color: rgba(218, 215, 200, 0.2);
+    padding: 5px 20px;
+}
+
+.cpm:hover{
+    border-radius: 50px;
+    background-color: rgba(218, 215, 200, 0.2);
+    padding: 5px 20px;
+}
+
+.cps:hover{
+    border-radius: 50px;
+    background-color: rgba(218, 215, 200, 0.2);
+    padding: 5px 20px;
+}
+
+.total_clicks:hover{
+    border-radius: 50px;
+    background-color: rgba(218, 215, 200, 0.2);
+    padding: 5px 20px;
+}
+
+
+/* making navbar beautiful */
+
+.home,.cpm,.cps,.total_clicks{
+    text-decoration: none;
+    padding: 0 20;
+    font-weight:bold;
+    font-size:large;
+    color: rgb(231, 231, 231);
+}
+
+
+body{
+    margin : 0;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#navbar{
+    background-color: rgba(79, 78, 78, 0.468);
+    padding: 10px 0.5%;
+    text-align: center;
+    max-width:max-content;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.counter{
+    background-color: rgba(155, 62, 70, 0.317);
+    max-width: max-content;
+    margin: auto;
+    text-align: center;
+    padding:  20px 40px;
+    border-radius: 15px;
+    text-size-adjust: 100px;
+}
+
+
+.button{
+    padding: 0.7% 2%;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+    border-width: 3px;
+}
+
+.reset{
+    display: inline-block;
+}
+
+#setreset{
+    align-items: center;
+}
+
+table,td,th{
+    border-collapse: collapse;    
+    margin: auto;
+    margin-top: 3%;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;  
+}
+
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+    border-radius: 25;
+    border-color: #D6EEEE;
+    padding: 0 200;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+    padding: 0 50;
+}
+
+thead{
+    border-bottom: 2px solid black;
+}
+
+table{
+    visibility:hidden;
+}
+
+.timer{
+    background-color: rgb(19, 144, 15);
+    border-radius: 25px;
+    border-width: 3px;
+    color: yellow;
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    padding: 0.7% 0;
+    font-weight: bolder;
+    display: none;
+}
+
+.total_info, .cps_info, .cpm_info, .about_info{
+    margin: auto;
+    background-color: brown;
+    display: inline-block;
+    padding: 0px 10px;
+    align-self: center;
+    margin: 2px;
+    width: 48%;
+    height: 40%;
+}
+
+.details{
+    padding: 5% 0% 0%;
+    background-color: rgb(93, 113, 113);
+}
+
+.intro{
+    display:flex;
+    width:100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.big{
+    color: orangered;
+    font-style:normal;
+    font-size: 120px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.content{
+    width: 100%;
+}
+
+.header{
+    padding:5px 5px ;
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+}
+
+.info1 > img, .info3 > img{
+    width: 40%;
+    height: 70%;
+}
+
+.info2 > img{
+    width: 30%;
+    height: 70%;
+}
+
+.text1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.challenge{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.try{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.try:hover{
+    background-color: orangered;
+}
+
+.kk{
+    text-decoration: none;
+}
+
+.center{
+    margin: 2% 0%;
+}

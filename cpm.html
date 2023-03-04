@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTER</title>
+    <link rel="icon" href="mouse.ico">
+</head>
+<body>
+    <link rel="stylesheet" href="click_cal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
+    <div class="header">
+        <div id="title">
+            <a href="index.html"><img src="workspace.png" alt="mouse and keyboard"></a>
+            <span class="heading">COUNTER<span>
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html" class="home">HOME</a>
+            <a href="cpm.html" class="cpm" style="border-radius: 25px;
+            background-color: rgb(255, 111, 16);
+            max-width: fit-content;
+            padding: 5px 20px;">CPM</a>
+            <a href="cps.html" class="cps">CPS</a>
+            <a href="total_clicks.html" class="total_clicks">TOTAL</a>
+        </nav>
+    </div>
+
+    <br><br><br><br><br><br><h1 style="color: tomato;" class="counter">0 CPM</h1><br>
+
+    <div class="timer"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="milliseconds">00</span></div><br>
+
+    <button class="button">click me</button>
+    <button class="button">score</button>
+    <button class="button">reset</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>SCORE</th>
+                </tr>
+        </thead>
+        <tbody class="scores"></tbody>
+    </table>
+
+    <script src="click.js"></script>
+</body>
+</html>
